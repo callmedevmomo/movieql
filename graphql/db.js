@@ -1,21 +1,21 @@
 let movies = [
   {
-    id: 0,
+    id: 1,
     name: "Star Wars - The new one",
     score: 2
   },
   {
-    id: 1,
+    id: 2,
     name: "Avengers - The new one",
     score: 5
   },
   {
-    id: 2,
+    id: 3,
     name: "The Godfather I",
     score: 4
   },
   {
-    id: 3,
+    id: 4,
     name: "Logan",
     score: 6
   }
@@ -45,5 +45,6 @@ export const addMovie = (name, score) => {
     score
   };
   movies.push(newMovie);
+  console.log(movies);
   return newMovie;
 };
